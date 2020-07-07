@@ -18,4 +18,4 @@ try dwm
 - neofetch
 - zsh-autocomplete
 - zsh-suggestions
-- tmux
+- tmux: theme https://github.com/gpakosz/.tmux
