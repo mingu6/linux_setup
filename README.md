@@ -4,6 +4,8 @@
 - Vim Bootstrap
 - NERDTree with automatic load on startup and shortcut with leader
 - CommandT
+- map shortcuts for splits, i.e. remove ctrl + w + key with ctrl + key
+- VIM tmux seamless integration
 
 # Window manager
 
