@@ -57,9 +57,10 @@ No explanation required. Install using
 ### Packages
 
 - zsh-suggestions: See [link](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md) under "Oh My Zsh".
+- zsh-syntax-highlighting See [link](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 - advanced tab completion (not a package per se): Add the following to `~/.zshrc`
 ```
-autoload -U compinit <br />
+autoload -U compinit
 compinit
 ```
 
