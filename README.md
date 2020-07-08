@@ -42,7 +42,7 @@ call plug#end()`
 ruby extconf.rb
 make`
 
-5. Usage: <kbd><leader></kbd> + <kbd>t</kbd> (<leader> is "," for this config) and then perform fuzzy searching from the current directory!
+5. Usage: `<leader> + t` (<leader> is "," for this config) and then perform fuzzy searching from the current directory!
 
 # Window manager
 
@@ -74,7 +74,7 @@ Fuzzy finder within the shell.
 
 - While in the shell hit <kbd>Ctrl</kbd> + <kbd>t</kbd> to open the fuzzy finer and type away to search within current directory (and all children). 
 - Select using arrow keys and enter to autocomplete from current cursor position.
-- You can also hit <kbd>Tab<kbd> while searching in cd and add more than one item for autocompletion.
+- You can also hit <kbd>Tab</kbd> while searching in cd and add more than one item for autocompletion.
 - <kbd>Ctrl</kbd> + <kbd>r</kbd> allows fuzzy finding in command history.
 - Installation: `sudo apt-get install fzf`. Add the following to your `~/.zshrc` to complete the installation.
   
