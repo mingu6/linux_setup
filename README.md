@@ -36,7 +36,7 @@ ruby extconf.rb
 make
 ```
 
-5. Usage: `<leader> + t` (<leader> is "," for this config) and then perform fuzzy searching from the current directory!
+5. Usage: `<leader> + t` (<leader> is "," for this config) and then perform fuzzy searching from the current directory! `C - c` to cancel prompt.
 
 # Window manager
 
