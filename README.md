@@ -30,10 +30,10 @@ Follow all instructions https://github.com/wincent/command-t!!! Requires more ad
 2. Compile neovim with ruby support `gem install neovim`
 3. Allow vim plug-in manager (vim-plug by default for this config) to download CommandT. Add the command-t to the list of plugins within init.vim.
 
-`call plug#begin() <br />
-... <br />
-Plug 'wincent/command-t' <br />
-... <br />
+`call plug#begin()\
+...\
+Plug 'wincent/command-t'\
+...\
 call plug#end()`
 
 4. Compile Command T using the following commands.
