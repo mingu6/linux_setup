@@ -18,7 +18,7 @@ Useful shortcuts and basic cheat sheet [here](https://yannesposito.com/Scratch/e
 
 For navigating directories, adds the left pane tree in NeoVim. 
 
-- <kbd>Ctrl<kbd> + <kbd>n<kbd> to toggle tree
+- <kbd>Ctrl</kbd> + <kbd>n</kbd> to toggle tree
 - Currently configured to autoload upon oepning nvim with a directory. 
 - Git plugin installed, marks git statuses for files when tree is open
 
@@ -87,5 +87,5 @@ Displays system information nicely with a single command `neofetch`. Install usi
 ## tmux 
 
 - Install using `sudo apt install tmux`
-- [Theme](https://github.com/gpakosz/.tmux): Allows <kbd>Ctrl</kbd> + <kbd>b<kbd> or <kbd>a</kbd> to enable tmux prompt. Then use vim navigation keys to change panes. 
+- [Theme](https://github.com/gpakosz/.tmux): Allows <kbd>Ctrl</kbd> + <kbd>b</kbd> or <kbd>a</kbd> to enable tmux prompt. Then use vim navigation keys to change panes. 
 - tmux session manager [doc](http://tmuxp.git-pull.com/en/latest/quickstart.html) `pip install tmuxp`. Can load and save configurations for fast setup!
