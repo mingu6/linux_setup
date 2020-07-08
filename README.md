@@ -31,8 +31,8 @@ Follow all instructions https://github.com/wincent/command-t!!! Requires more ad
 3. Compile Command T using the following commands.
 
 ```
-cd ~/.config/nvim/plugged/command-t/ruby/command-t/ext/command-t <br />
-ruby extconf.rb <br />
+cd ~/.config/nvim/plugged/command-t/ruby/command-t/ext/command-t
+ruby extconf.rb
 make
 ```
 
