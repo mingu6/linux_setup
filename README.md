@@ -30,16 +30,16 @@ Follow all instructions https://github.com/wincent/command-t!!! Requires more ad
 2. Compile neovim with ruby support `gem install neovim`
 3. Allow vim plug-in manager (vim-plug by default for this config) to download CommandT. Add the command-t to the list of plugins within init.vim.
 
-`call plug#begin()
-...
-Plug 'wincent/command-t'
-...
+`call plug#begin() <br />
+... <br />
+Plug 'wincent/command-t' <br />
+... <br />
 call plug#end()`
 
 4. Compile Command T using the following commands.
 
-`cd ~/.config/nvim/plugged/command-t/ruby/command-t/ext/command-t
-ruby extconf.rb
+`cd ~/.config/nvim/plugged/command-t/ruby/command-t/ext/command-t <br />
+ruby extconf.rb <br />
 make`
 
 5. Usage: `<leader> + t` (<leader> is "," for this config) and then perform fuzzy searching from the current directory!
@@ -65,7 +65,7 @@ No explanation required. Install using
 - zsh-suggestions: See [link](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md) under "Oh My Zsh".
 - advanced tab completion (not a package per se): Add the following to `~/.zshrc`
 
-`autoload -U compinit
+`autoload -U compinit <br />
 compinit`
 
 ## fzf
@@ -78,7 +78,7 @@ Fuzzy finder within the shell.
 - <kbd>Ctrl</kbd> + <kbd>r</kbd> allows fuzzy finding in command history.
 - Installation: `sudo apt-get install fzf`. Add the following to your `~/.zshrc` to complete the installation.
   
-  `[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh                                                                                                                     export FZF_DEFAULT_OPS="--extended"`
+`[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh <br />                                                                                                          export FZF_DEFAULT_OPS="--extended"`
 
 ## Neofetch
 
