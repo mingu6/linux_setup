@@ -63,8 +63,7 @@ Yet to try!!!
 No explanation required. Install using
 
 1. Main oh my zsh program `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-2. Powerline fonts for agnoster theme `sudo apt-get install fonts-powerline`
-3. Set `ZSH_THEME="agnoster"` in `~/.zshrc`.
+3. Powerlevel10k [link](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 
 ### Packages
 
