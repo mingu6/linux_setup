@@ -36,6 +36,18 @@ ruby extconf.rb
 make
 ```
 
+## Black
+
+Allows for formatting of python scripts automatically to fit the style guide. Automatically fixes upon save. Can also use command line to tidy up the code.
+
+```
+black {source_file_or_directory}
+```
+
+## tmux-vim-navigation
+
+Allows for seamless navigation in vim. See [link](https://github.com/christoomey/vim-tmux-navigator) to install, need to modify `~/.tmux.conf.local` also.
+
 5. Usage: `<leader> + t` (<leader> is "," for this config) and then perform fuzzy searching from the current directory! `C - c` to cancel prompt.
 
 # Window manager
